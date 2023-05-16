@@ -14,7 +14,7 @@ jobs:
         with:
           REFRESH_TOKENS:{{cc17e742854a4b16967785877205d9f3}}
           GP_TOKEN:{{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}}
-          PUSH_TYPES: ''
+          PUSH_TYPES: 'PUSHPLUS'
           DO_NOT_REWARD: 'false'
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
