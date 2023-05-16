@@ -12,14 +12,14 @@ jobs:
     steps:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
-          REFRESH_TOKENS: {{ cc17e742854a4b16967785877205d9f3 }}
-          GP_TOKEN: {{ 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}}
+          REFRESH_TOKENS:{{cc17e742854a4b16967785877205d9f3}}
+          GP_TOKEN:{{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}}
           PUSH_TYPES: ''
           DO_NOT_REWARD: 'false'
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          PUSHPLUS_TOKEN: {{ 3ef59957eacb4398ade9fe971f0e8870 }}
+          PUSHPLUS_TOKEN:{{3ef59957eacb4398ade9fe971f0e8870}}
           PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
