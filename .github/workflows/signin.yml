@@ -14,6 +14,6 @@ jobs:
         with:
           REFRESH_TOKENS: ${{ 45db3d34b9504ce685df242bf218d0ea }}
           GP_TOKEN: ${{ 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 }}
-          #PUSH_TYPES: 'pushplus'
+          PUSH_TYPES: 'pushplus'
           DO_NOT_REWARD: 'false'
           PUSHPLUS_TOKEN: ${{ 3ef59957eacb4398ade9fe971f0e8870 }}
