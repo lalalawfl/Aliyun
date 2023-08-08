@@ -3,7 +3,7 @@ name: Aliyun Signin
 on:
   schedule:
    # 每天国际时间 21:00 运行一次, 中国时间 5:00
-    - cron: '0 21 * * *'
+    #- cron: '0 21 * * *'
   workflow_dispatch:
 jobs:
   signin:
